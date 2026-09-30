@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  }
+
+html {
+direction: rtl;
+scroll-behavior: smooth;
+}
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f8fafc;
+color: #1f2937;
+}
+
+button,
+input {
+font-family: inherit;
+}
+
+button {
+cursor: pointer;
+}
